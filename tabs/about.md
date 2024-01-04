@@ -4,7 +4,7 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":about.jpg"
+img: ":about.jpeg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -38,7 +38,17 @@ img: ":about.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
 
-{{ website_info_text_second }}
+ I'm a robotics masters student at **Worcester Polytechnic Institute (WPI)**. I have worked on a diverse set of projects during my stint at WPI that include **perception, planning and control** of aerial robots, mobile robots, autonomous vehicles and manipulators. 
+
+My exposure to such a variety of problems has made me curious about understanding and solving complex robotics problems. 
+
+
+<!-- *CV*: [Google Drive Link](https://drive.google.com/file/d/1LYTDRyFuUPKfe1H1_sCX-ffLA0Csu08k/view?usp=sharing)  -->
+
+<!--*CV*: [Google Drive Link](https://drive.google.com/file/d/1G_3FIA0rCt7_YYm5kt6Rej2kVYASRaxR/view?usp=sharing)  -->
+
+<!--Extended CV (Web Version):  -->
+**Resume**: [Google Drive Link](https://drive.google.com/file/d/1MoE1AmDEzCPSkqmWJf8fQ0UgzPz2_R3i/view?usp=sharing) \\
+**Personal Email**: shivasurya.lolla9@gmail.com \\
+**Institute Email**: slolla@wpi.edu 
