@@ -39,13 +39,19 @@ date: 2023-11-07 10:04:30 +0900
 #published: false
 ---
 ## **Summary:**
-In this project, we developed a sophisticated perception stack for DJI Tello EDU quadcopter to enable precise navigation through multiple windows, whose 3D poses were approximately known in advance. To achieve this, we employed simulation-to-reality (sim2real) techniques to generate synthetic data, creating a robust training set for our neural network model. The chosen architecture, YOLOv8, was trained to identify and segment the front window from a complex environment of multiple windows. Once the segmentation mask was detected, we extracted the corners and applied Perspective-n-Point (PnP) algorithm to calculate the relative pose of the front window which is essential for guiding the quadcopter through the windows safely.
+This project aims to develop a sophisticated perception stack for the DJI Tello EDU quadcopter, enabling it to autonomously navigate through a series of three sequentially arranged windows. The primary challenge lies in accurately identifying and estimating the pose of the nearest window amidst a backdrop of similar windows. To address this, a deep learning approach was adopted, involving the training of a neural network model specifically for this task. Simulation-To-Reality (sim2real) techniques were employed to generate and enrich synthetic data, forming the basis of the training dataset. YOLOv8 was selected as the deep learning model for its efficiency in object detection, and was trained to discern the foremost window mask within a complex array of multiple windows. From the detected segmentation mask, the corners of the window were then inferred. Subsequently, the Perspective-n-Point (PnP) algorithm was employed to compute the pose of the window relative to the quadcopter. This information enabled the quadcopter's safe and precise navigation through the windows.
+
+## **Github:**
+[Link](https://github.com/Chaitanya-01/P3-mini-drone-race)
 
 ## **Report:**
 [Link](https://drive.google.com/file/d/1vLl6qYV8s6BymqJwqwvjuPQBlMBskkst/view?usp=sharing)
 
 ## **Run Video:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i4cuP1Bpoc0?si=EggvShJBRvA3uFGH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## **Visualization**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WQvOlGGIvAI?si=3ay_KhsyEwzqkb3_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
