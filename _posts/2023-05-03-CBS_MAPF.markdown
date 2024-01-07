@@ -1,0 +1,63 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_CBS_MAPF
+title: "Multi Agent Path Finding using Conflict Based Search"
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: Shiva Surya Lolla
+# multiple category is not supported
+category: Projects
+# multiple tag entries are possible
+tags: [Python]
+# thumbnail image for post
+img: ":MAPF/CBS_MAPF.png"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-05-03 10:04:30 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2023-01-09 10:04:30 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+## **Summary:**
+This project explored the problem of Multi-Agent Path Finding (MAPF) on a 2D grid map using Conflict Based Search (CBS) algorithm.The algorithm was developed in two levels. The high-level component of the CBS algorithm revolved around the implementation of a Constraint Tree (CT) data structure. This structure played a crucial role in dynamically managing and adapting to constraints for each agent. Whenever conflicts among agents were detected, the CT imposed constraints and called the low level search.
+
+At the lower level, the project leveraged the A* search algorithm to calculate the shortest possible path for each individual agent. What made this application of the A* search algorithm particularly innovative was its integration with the high-level constraints provided by the CT data structure. By incorporating these constraints, the A* algorithm was able to generate a set of collision free paths for all the agents in the grid map. This dual-level approach not only ensured the efficiency of the pathfinding process but also significantly minimized potential conflicts among agents.
+
+An additional feature of this project was the use of Pygame for visualization purposes. This allowed for a clear and dynamic representation of the agents’ progress across the grid, at each time step. The start locations for each agent in the animations are indicated by the agent numbers and the goal locations are indicated by agent numbers in italic font. 
+
+## **Github:**
+[Link](https://github.com/shivasurya1999/Multi-Agent-Path-Finding)
+
+## **Report:**
+[Link](https://drive.google.com/file/d/1vqHXiIHHEpond2QCxT8nsbDdjLZBRUWA/view?usp=sharing)
+
+## **Animation 1:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1nIZqoXW8JI?si=NAWB_a5qftYGF0kX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## **Animation 2**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BNev7qIkPQQ?si=RvaVs4SHVSGID2um" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
