@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_DJI_Perc
-title: "DJI Tello EDU quadcopter perception pipeline"
+title: "DJI Tello EDU's Sim2Real Deep Learning Perception Pipeline"
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
