@@ -50,6 +50,6 @@ I am keen on applying my multidisciplinary skills in a dynamic team environment 
 <!--*CV*: [Google Drive Link](https://drive.google.com/file/d/1G_3FIA0rCt7_YYm5kt6Rej2kVYASRaxR/view?usp=sharing)  -->
 
 <!--Extended CV (Web Version):  -->
-**Resume**: [Google Drive Link](https://drive.google.com/file/d/1MoE1AmDEzCPSkqmWJf8fQ0UgzPz2_R3i/view?usp=sharing) \\
+**Resume**: [Google Drive Link](https://drive.google.com/file/d/1A6t3OpSz4TSalYF8P42C_nQx5A6k0_JO/view?usp=sharing) \\
 **Personal Email**: shivasurya.lolla9@gmail.com \\
 **Institute Email**: slolla@wpi.edu 
