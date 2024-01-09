@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Agent_Motion
-title: "Agent motion prediction using a hybrid RNN-CNN model"
+title: "Agent Motion Prediction using Deep Learning for Autonomous Navigation"
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
