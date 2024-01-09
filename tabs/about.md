@@ -39,10 +39,11 @@ img: ":about.jpeg"
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 
- I'm a robotics masters student at **Worcester Polytechnic Institute (WPI)**. I have worked on a diverse set of projects during my stint at WPI that include **perception, planning and control** of aerial robots, mobile robots, autonomous vehicles and manipulators. 
+ I'm a robotics masters student at **Worcester Polytechnic Institute (WPI)**. During my stint at WPI I have cultivated a deep-rooted curiosity towards complex robotics problems. I attribute this passion to my work in a spectrum of projects encompassing **perception, planning, and control** across various domains such as aerial robots, mobile robots, autonomous vehicles, and manipulators. 
 
-My exposure to such a variety of problems has made me curious about understanding and solving complex robotics problems. 
+My experiences have not only honed my technical expertise but have also shaped my ability to dissect robotics problems from different perspectives, leading to innovative and practical solutions.
 
+I am keen on applying my multidisciplinary skills in a dynamic team environment and contributing meaningfully to cutting-edge robotics projects. If you're looking for someone who blends analytical prowess with a creative mindset in solving complex robotic challenges, I'd be excited to explore how I can contribute to your organization. 
 
 <!-- *CV*: [Google Drive Link](https://drive.google.com/file/d/1LYTDRyFuUPKfe1H1_sCX-ffLA0Csu08k/view?usp=sharing)  -->
 
